@@ -166,6 +166,13 @@ body {
     top: 47%;
     left: 25%;
     transform: translate(-50%, -50%);
+    transition: width 0.4s;
+}
+.localisation:hover img {
+    width: 25%;
+}
+.localisation:not(:hover) img {
+    width: 20%; 
 }
 .localisation p {
     position: absolute;
