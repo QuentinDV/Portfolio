@@ -6,9 +6,9 @@ document.getElementById("changeColorButton").addEventListener("click", function(
         element.style.color = "#101010";
     });
     // Modifier les chemins des images pour le mode clair
-    document.querySelectorAll(".changetheme img").forEach(function(img) {
-        img.src = "assets/img/dark/" + img.getAttribute("data-img");
-        console.log(img.src)
+    document.querySelectorAll("img").forEach(function(img) {
+        var imageName = img.getAttribute("data-img"); // Récupérer le nom de l'image sans l'extension
+        img.src = "assets/img/white/" + imageName + ".png"; // Modifier le chemin de l'image
     });
 });
 
@@ -20,8 +20,8 @@ document.getElementById("resetColorButton").addEventListener("click", function()
         element.style.color = "";
     });
     // Réinitialiser les chemins des images aux chemins par défaut
-    document.querySelectorAll(".changetheme img").forEach(function(img) {
-        img.src = "assets/img/dark/" + img.getAttribute("data-img");
+    document.querySelectorAll("img").forEach(function(img) {
+        var imageName = img.getAttribute("data-img"); // Récupérer le nom de l'image sans l'extension
+        img.src = "assets/img/dark/" + imageName + ".png";
     });
 });
-
