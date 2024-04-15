@@ -234,6 +234,13 @@ a, a:visited, a:hover, a:active {
     color: inherit;  /* Inherits text color from parent */
     z-index: 10;  /* Ensures the link is above all other content for clicking */
 }
+.email p {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 110%;
+}
 
 .number {
     grid-column: 4/7;
