@@ -115,9 +115,14 @@ a, a:visited, a:hover, a:active {
     grid-column: 2/4;
     grid-row: 2/4;
     text-align: center;
-    white-space: nowrap;
-    font-size: 100%;
+    overflow: auto; /* Add overflow property */
+    padding: 10px; /* Add padding to give some space */
+    padding-top: 5%;
+    box-sizing: border-box; /* Ensure padding doesn't increase the size */
     cursor: default;
+}
+.status p {
+    font-size: 60%;
 }
 .status:hover {
     transform: scale(1.1);
@@ -248,19 +253,19 @@ a, a:visited, a:hover, a:active {
     cursor: default;
 }
 
-.projet {
+.projets {
     grid-column: 5/7;
     grid-row: 4/5;
     cursor: pointer;
 }
-.projet p {
+.projets p {
     position: absolute;
     top: 50%;
     left: 40%;
     transform: translate(-50%, -50%);
     font-size: 3vw;
 }
-.projet a {
+.projets a {
     display: block;  /* Makes the link block-level to fill the div */
     position: absolute;
     width: 100%;
@@ -271,7 +276,7 @@ a, a:visited, a:hover, a:active {
     color: inherit;  /* Inherits text color from parent */
     z-index: 10;  /* Ensures the link is above all other content for clicking */
 }
-.projet img{
+.projets img{
     position: absolute;
     top: 50%;
     left: 70%;
@@ -280,10 +285,10 @@ a, a:visited, a:hover, a:active {
     width: 20%;
     transition: left 0.4s;
 }
-.projet:hover img {
+.projets:hover img {
     left: 85%;
 }
-.projet:not(:hover) img {
+.projets:not(:hover) img {
     left: 70%; 
 }
 
