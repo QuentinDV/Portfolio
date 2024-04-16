@@ -31,7 +31,7 @@ a, a:visited, a:hover, a:active {
     border-radius: 15px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.767);
     position: relative;
-    font-family: 'Freight Display Pro';
+    font-family: 'Beaufort for LOL', sans-serif;
     transition: background-color 1s;
 }
 
@@ -43,10 +43,12 @@ a, a:visited, a:hover, a:active {
 .homebouton:hover {
     transform: scale(1.1);
     transition: transform 0.4s; 
+    transition: background-color 1s;
 }
 .homebouton:not(:hover) {
     transform: scale(1); 
     transition: transform 0.4s; 
+    transition: background-color 1s;
 }
 .homebouton img {
     width : 90%;
@@ -67,10 +69,12 @@ a, a:visited, a:hover, a:active {
 .name:hover {
     transform: scale(1.1);
     transition: transform 0.4s; 
+    transition: background-color 1s;
 }
 .name:not(:hover) {
     transform: scale(1); 
     transition: transform 0.4s; 
+    transition: background-color 1s;
 }
 .name p  {
     font-size: 3vw;
@@ -117,7 +121,7 @@ a, a:visited, a:hover, a:active {
     text-align: center;
     overflow: auto; 
     padding: 2%;
-    padding-top: 10%;
+    padding-top: 5%;
     box-sizing: border-box; 
     cursor: default;
 }
@@ -127,10 +131,12 @@ a, a:visited, a:hover, a:active {
 .status:hover {
     transform: scale(1.1);
     transition: transform 0.4s;
+    transition: background-color 1s;
 }
 .status:not(:hover) {
     transform: scale(1); 
     transition: transform 0.4s;
+    transition: background-color 1s;
 }
 
 .etudiant {
