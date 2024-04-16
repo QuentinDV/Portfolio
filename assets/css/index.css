@@ -31,7 +31,7 @@ a, a:visited, a:hover, a:active {
     border-radius: 15px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.767);
     position: relative;
-    font-family: 'Beaufort for LOL', sans-serif;
+    font-family: 'Freight Display Pro';
     transition: background-color 1s;
 }
 
@@ -115,10 +115,10 @@ a, a:visited, a:hover, a:active {
     grid-column: 2/4;
     grid-row: 2/4;
     text-align: center;
-    overflow: auto; /* Add overflow property */
-    padding: 10px; /* Add padding to give some space */
-    padding-top: 5%;
-    box-sizing: border-box; /* Ensure padding doesn't increase the size */
+    overflow: auto; 
+    padding: 2%;
+    padding-top: 10%;
+    box-sizing: border-box; 
     cursor: default;
 }
 .status p {
