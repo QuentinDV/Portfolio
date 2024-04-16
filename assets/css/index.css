@@ -303,4 +303,8 @@ a, a:visited, a:hover, a:active {
     .wrapper {
         width: 90%;
     }
+    .status p {
+        padding-top: 10%;
+        font-size: 32%;
+    }
 }

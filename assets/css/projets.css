@@ -210,3 +210,10 @@ a, a:visited, a:hover, a:active {
     transform: translate(-50%, -50%);
     white-space: pre;
 }
+
+/* Media query pour les téléphones mobiles */
+@media all and (max-width: 767px) {
+    .wrapper {
+        width: 90%;
+    }
+}
